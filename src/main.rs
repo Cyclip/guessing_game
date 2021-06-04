@@ -28,8 +28,8 @@ fn input(prefix: &str) -> String {
 
 fn main() {
     // const
-    let min = 1;
-    let max = 100;
+    const min: i32 = 1;
+    const max: i32 = 100;
 
     // Get number
     let number = rand::thread_rng().gen_range(min..max+1);
